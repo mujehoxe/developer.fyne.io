@@ -20,6 +20,11 @@ installed with appropriate environment set up so that the tools (such as `adb`)
 can be found on the command line. To build iOS apps you will need Xcode installed
 on your macOS computer as well as the command line tools optional package.
 
+Then you need to install fyne command tools
+```
+go install fyne.io/fyne/v2/cmd/fyne
+```
+
 Once you have a working development environment the packaging is simple.
 To build an application for Android and iOS the following commands will do
 everything for you. Be sure to have a unique application identifier as it is
